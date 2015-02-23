@@ -1,0 +1,104 @@
+
+body {
+	font-family: sans-serif;
+	margin:0em;
+	display:none;
+}
+
+.wrapper {
+	overflow:hidden;
+	position:relative;
+	background: none repeat scroll 0% 0% rgba(2, 17, 2, 0.84);
+	background-image:url('http://pixabay.com/static/uploads/photo/2014/10/05/10/55/milky-way-474931_640.jpg');
+}
+
+.wrapper > .header {
+	padding: 1em;
+	background-color: gray;
+	color: white;
+	border-radius: 1em;
+	width: 10em;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight:bold;
+	letter-spacing: .25em;
+	
+	background-image:url('http://pixabay.com/static/uploads/photo/2013/07/18/10/55/outer-space-163458_640.jpg');
+	background-size:cover;
+	
+	border: thick solid gray;
+}
+
+.menu {
+	background-color: #A27878;
+	margin:0em 4em;
+	width: 10em;
+	text-align: center;
+	position:absolute;
+	height:0em;
+	
+	background: linear-gradient(to bottom, rgba(162,120,120,1) 0%,rgba(229,229,229,0) 100%);
+}
+
+.menu .menu-item {
+	padding:1em;
+	font-weight: bold;
+}
+
+.menu-item:hover {
+	box-shadow: inset 5px 5px 50px #FFF;
+}
+
+.content-target {
+	position:absolute;
+	top:10em;
+	left:20em;
+	width:60%;
+	height:60%;
+	padding:2em;
+	
+	background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.85);
+	border:thick solid black;
+	border-radius:2em;
+	overflow-y:auto;
+}
+
+.nav-section {
+  display:none;
+}
+
+.nav-section.active {
+	display:block;
+}
+
+.post {
+	position:relative;
+	border: thick solid rgba(50,120,25,.3);
+	border-radius:1em;
+	padding:1em;
+	margin-bottom:2em;
+	overflow:hidden;
+}
+
+.post .header {
+	position:relative;
+	font-weight:bold;
+	letter-spacing:.2em;
+	margin:-1em;
+	padding:1em;
+}
+
+.post .header:hover {
+	box-shadow: inset 1em 1em 10em 5em rgba(80,22,145,.4)
+}
+
+.post .header .timestamp {
+	position:absolute;
+	right:1em;
+	top:1em;
+}
+
+.post-content {
+	display: none;
+	padding-top:1em;
+}
