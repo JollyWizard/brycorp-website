@@ -8,8 +8,10 @@ body {
 .wrapper {
 	overflow:hidden;
 	position:relative;
-	background: none repeat scroll 0% 0% rgba(2, 17, 2, 0.84);
+	
 	background-image:url('http://pixabay.com/static/uploads/photo/2014/10/05/10/55/milky-way-474931_640.jpg');
+	background-image:url('http://upload.wikimedia.org/wikipedia/commons/e/e9/Sombrero_Galaxy_in_infrared_light_%28Hubble_Space_Telescope_and_Spitzer_Space_Telescope%29.jpg');
+	background-size: cover;
 }
 
 .menu .header {
