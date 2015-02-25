@@ -18,7 +18,6 @@ define("brycorp-site",
 				$(".content-target .nav-section")
 				.each(function(index, element) {
 					var targetNav = $(element).data('nav-section')
-					console.log(targetNav)
 					if(targetNav == navSection)
 						$(element).slideToggle()
 					else
