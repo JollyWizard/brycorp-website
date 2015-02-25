@@ -12,7 +12,7 @@ body {
 	background-image:url('http://pixabay.com/static/uploads/photo/2014/10/05/10/55/milky-way-474931_640.jpg');
 }
 
-.wrapper > .header {
+.header {
 	padding: 1em;
 	
 	position:relative;
@@ -29,7 +29,7 @@ body {
 	border-radius:100%;
 }
 
-.wrapper > .header:after {
+.wrapper .header:before {
 	content:"";
 	
   position: absolute;
