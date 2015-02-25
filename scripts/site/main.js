@@ -20,7 +20,7 @@ define("brycorp-site",
 					var targetNav = $(element).data('nav-section')
 					console.log(targetNav)
 					if(targetNav == navSection)
-						$(element).show()
+						$(element).slideToggle()
 					else
 						$(element).hide()
 				})
@@ -39,7 +39,7 @@ define("brycorp-site",
 		function postReveal() {
 			$(".post .header").click( function() {
 				//console.log("post clicked" + this.outerHTML);
-				$(".post-content", $(this).parent()).toggle(200);
+				$(".post-content", $(this).parent()).slideToggle("linear");
 			})
 		}
 		
