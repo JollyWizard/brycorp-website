@@ -1,15 +1,21 @@
+:root{
+	background-color:black;
+}
 
 body {
 	font-family: sans-serif;
 	margin:0em;
 	display:none;
+
 }
 
 .wrapper {
 	overflow:hidden;
 	position:relative;
 	
+	/* 
 	background-image:url('http://pixabay.com/static/uploads/photo/2014/10/05/10/55/milky-way-474931_640.jpg');
+	*/
 	background-image:url('http://upload.wikimedia.org/wikipedia/commons/e/e9/Sombrero_Galaxy_in_infrared_light_%28Hubble_Space_Telescope_and_Spitzer_Space_Telescope%29.jpg');
 	background-size: cover;
 }
@@ -78,7 +84,7 @@ body {
 }
 
 .menu-item {
-	transition: .5s linear;
+	transition: .5s ease-out;
 	cursor:pointer;
 }
 
@@ -144,7 +150,8 @@ body {
 }
 
 .post .header:hover {
-	box-shadow: inset 1em 1em 10em 5em rgba(80,22,145,.4)
+	transition:.25s ease;
+	box-shadow: inset 1em 1em 10em 5em rgba(80,22,145,.4);
 }
 
 .post .header .timestamp {
